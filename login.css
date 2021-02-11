@@ -9,11 +9,72 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.login-form {
+    position: absolute;
+    width: 23vw;
+    height: 55vh;
+    margin-left: 69vw;
+    margin-top: 23vh;
+    background-color: white;
+    box-shadow: 4px 4px 32px rgba(5, 2, 151, 0.06);
+    border-radius: 16px;
+}
+
+.title {
+    position: absolute;
+    font-weight: 700;
+    color: #2833FB;
+    padding-left: 5vw;
+    padding-top: 1vh;
+}
+
+.quotes {
+    position: absolute;
+    padding-left: 5vw;
+    padding-top: 50vh;
+}
+
+.quotes img {
+    margin: 0px 10px;
+    opacity: 0.1;
+}
+
+.quotes p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #00078A;
+    margin: 10px 0px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.welcome {
+    position: absolute;
+    padding-left: 5vw;
+    padding-top: 15vh;
+}
+
+.welcome h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #2833FB;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #00078A;
+    margin: 10px 0px;
+}
+
 .footer-text {
     display: flex;
     position: absolute;
-    padding-left: 75%;
-    padding-top: 45%;
+    padding-left: 75vw;
+    padding-top: 90vh;
     color: white;
 }
 
